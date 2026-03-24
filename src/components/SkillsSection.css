@@ -1,0 +1,121 @@
+.skills-section {
+  padding-top: 6rem;
+}
+
+.skills-intro {
+  max-width: 900px;
+  margin: 0 auto 4rem;
+  padding: 2.5rem;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.skills-intro p {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.skill-category-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.skill-category-title {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  border-left: 4px solid var(--primary-color);
+}
+
+.tech-icons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 2rem;
+}
+
+.tech-icon-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 1rem;
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: var(--card-bg);
+}
+
+.tech-icon-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px var(--shadow-color);
+  background: var(--bg-color);
+}
+
+.tech-icon-wrapper {
+  font-size: 4rem; /* Big icons */
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.tech-icon-card:hover .tech-icon-wrapper {
+  transform: scale(1.1);
+}
+
+.tech-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .tech-icons-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .tech-icon-wrapper {
+    font-size: 3rem;
+  }
+  
+  .tech-name {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .tech-icons-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  .tech-icon-card {
+    padding: 1rem 0.5rem;
+  }
+  
+  .tech-icon-wrapper {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .tech-name {
+    font-size: 0.8rem;
+  }
+  
+  .skills-intro {
+    padding: 1.5rem;
+  }
+}
