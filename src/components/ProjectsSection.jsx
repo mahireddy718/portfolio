@@ -18,7 +18,7 @@ const ProjectsSection = () => {
     {
       title: 'Virtual Storefront',
       description: 'Delivered a virtual storefront supporting end-to-end product ordering, allowing users to browse, adding items to the cart, and place orders for 100+ products smoothly. Built a fully responsive user interface using HTML and Tailwind CSS with a PHP backend.',
-      image: '/patient.png',
+      image: '/store.png',
       tags: ['HTML5', 'Tailwind CSS', 'PHP', 'MySQL', 'RESTful APIs'],
       links: {
         github: 'https://github.com/mahireddy718',
