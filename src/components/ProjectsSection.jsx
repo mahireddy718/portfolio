@@ -6,6 +6,16 @@ import './ProjectsSection.css';
 const ProjectsSection = () => {
   const projects = [
     {
+      title: 'FreelanceCo',
+      description: 'Designed a modern freelance marketplace landing experience focused on fast discovery, clear service categories, and a polished premium feel for clients and creators.',
+      image: '/freelanceco.svg',
+      tags: ['React', 'UI/UX', 'Marketplace', 'Branding'],
+      links: {
+        github: 'https://github.com/mahireddy718',
+        live: '#'
+      }
+    },
+    {
       title: 'E-commerce Marketing Website',
       description: 'Architected a scalable full-stack e-commerce platform enabling product browsing, cart management, and persistent user sessions, designed to support 500+ concurrent test users without performance degradation. Developed a React.js frontend integrated with Node.js and Express.js APIs, processing bulk uploads of 1,000+ products.',
       image: '/image.png',
