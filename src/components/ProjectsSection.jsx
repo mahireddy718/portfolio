@@ -7,9 +7,9 @@ const ProjectsSection = () => {
   const projects = [
     {
       title: 'FreelanceCo',
-      description: 'Designed a modern freelance marketplace landing experience focused on fast discovery, clear service categories, and a polished premium feel for clients and creators.',
+      description: 'Designed a modern freelance marketplace experience with 10+ integrated APIs, role-based workflows, and deployment-ready infrastructure for scalable client and creator interactions.',
       image: '/freelanceco.svg',
-      tags: ['React', 'UI/UX', 'Marketplace', 'Branding'],
+      tags: ['React', 'Node.js', 'Express.js', 'MERN', 'Vercel', 'Render', 'Cloudinary', 'Brevo', 'Nodemailer', '10+ APIs'],
       links: {
         github: 'https://github.com/mahireddy718',
         live: '#'
@@ -40,7 +40,15 @@ const ProjectsSection = () => {
     'React': 'https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB',
     'Node.js': 'https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white',
     'Express': 'https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white',
+    'Express.js': 'https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white',
     'MongoDB': 'https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white',
+    'MERN': 'https://img.shields.io/badge/MERN-1F2937?style=for-the-badge&logo=react&logoColor=61DAFB',
+    'Vercel': 'https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white',
+    'Render': 'https://img.shields.io/badge/Render-0466C8?style=for-the-badge&logo=render&logoColor=white',
+    'Cloudinary': 'https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white',
+    'Brevo': 'https://img.shields.io/badge/Brevo-0055FF?style=for-the-badge&logo=brevo&logoColor=white',
+    'Nodemailer': 'https://img.shields.io/badge/Nodemailer-0A7C4A?style=for-the-badge&logo=nodemailer&logoColor=white',
+    '10+ APIs': 'https://img.shields.io/badge/APIs-111827?style=for-the-badge&logo=postman&logoColor=FF6C37',
     'Gemini AI': 'https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=google-gemini&logoColor=white',
     'Tailwind CSS': 'https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white',
     'HTML5': 'https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white',
